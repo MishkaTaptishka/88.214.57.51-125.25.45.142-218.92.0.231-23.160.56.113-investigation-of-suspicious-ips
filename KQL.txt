@@ -32,3 +32,4 @@ file_events
 | extend Category = "Suspicious IP"
 | project RemoteIP, connection_count, Category
 | order by connection_count desc
+// output: total_connection_counts.csv
